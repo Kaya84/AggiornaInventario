@@ -1,5 +1,4 @@
 <?php
-
 include('../../../inc/includes.php');
 header("Content-Type: text/html; charset=UTF-8");
 Html::header_nocache();
@@ -80,7 +79,7 @@ try {
 	
 	
 	$changes = [
-		"30",
+		"125", //125 corrisponde al codice identificativo 
 		$oldDate, //questo è il vecchio valore
 		$newDate
 		];
