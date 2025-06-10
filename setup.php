@@ -12,7 +12,7 @@ function plugin_version_aggiornainventario() {
 
 function plugin_init_aggiornainventario() {
     global $PLUGIN_HOOKS;
-	$PLUGIN_HOOKS['csrf_compliant']['AggiornaInventario'] = true;
+	$PLUGIN_HOOKS['csrf_compliant']['aggiornainventario'] = true;
 
     $PLUGIN_HOOKS['pre_item_form']['aggiornainventario'] = 'plugin_aggiornainventario_add_button';
     
