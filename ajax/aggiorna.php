@@ -32,6 +32,8 @@ if (isset($_POST['type'])){
 		$elem = new Computer();
 	} else if ($type == "Monitor"){
 		$elem = new Monitor();
+	}  else if ($type == "Printer"){
+		$elem = new Printer();
 	} else {
 
 		die(json_encode([

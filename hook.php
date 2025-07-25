@@ -3,7 +3,7 @@
 function plugin_aggiornainventario_add_button($params) {
 	
 	
-    if (in_array($params['item']->getType(),  ['Computer', 'Monitor'], true)) {
+    if (in_array($params['item']->getType(),  ['Computer', 'Monitor', 'Printer'], true)) {
         echo "<button type='button' class='vsubmit' name='aggiorna_inventario' 
               onclick='aggiornaInventario()' style='margin-left: 10px;'>
               Aggiorna data ultimo inventario a oggi</button>";
